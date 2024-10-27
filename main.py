@@ -42,6 +42,9 @@ frame_cima.grid(row=0, column=0, sticky=NSEW)
 frame_baixo = Frame(janela, width=295, height=310, bg=cor0, padx=0, pady=0, relief=FLAT)
 frame_baixo.grid(row=1, column=0, sticky=NSEW)
 
+frame_caracteres = Frame(frame_baixo, width=295, height=210, bg=cor0, padx=0, pady=0, relief=FLAT)
+frame_caracteres.grid(row=3, column=0, sticky=NSEW, columnspan=3)
+
 ######################## Trabalhando frames cima ###############################
 img = Image.open(r"img/senha.png")
 img = img.resize((30, 30), Image.Resampling.LANCZOS)
@@ -173,9 +176,6 @@ spin = Spinbox(
     textvariable=var,
 )
 spin.grid(row=2, column=0, columnspan=2, sticky=NW, padx=5, pady=8)
-
-frame_caracteres = Frame(frame_baixo, width=295, height=210, bg=cor0, padx=0, pady=0, relief=FLAT)
-frame_caracteres.grid(row=3, column=0, sticky=NSEW, columnspan=3)
 
 # ---------------------------- LETRAS MAIUSCULAS ------------------------------
 estado_1 = StringVar()
