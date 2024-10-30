@@ -1,5 +1,3 @@
----
-
 # Gerador de Senhas
 
 Um aplicativo de interface gráfica (GUI) para geração de senhas, desenvolvido em Python com a biblioteca **Tkinter**. Este projeto é orientado a objetos e oferece uma interface intuitiva para configurar e criar senhas seguras, com opções personalizáveis de comprimento e tipos de caracteres.
@@ -73,4 +71,3 @@ O projeto foi implementado com **Programação Orientada a Objetos** para melhor
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para sugestões ou relatórios de bugs, e envie um pull request para melhorias.
 
----
