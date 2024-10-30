@@ -1,5 +1,3 @@
-Aqui está um exemplo de README para o seu projeto de **Gerador de Senhas** usando Tkinter e Programação Orientada a Objetos. 
-
 ---
 
 # Gerador de Senhas
