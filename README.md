@@ -69,7 +69,7 @@ O projeto foi implementado com **Programação Orientada a Objetos** para melhor
 
 ## Exemplo
 
-![Exemplo de uso](img/GIF.gif) *(Exemplo de interface do gerador de senhas)*
+![Exemplo de uso](img/GIF.gif)
 
 ## Contribuições
 
